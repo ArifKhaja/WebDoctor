@@ -1,0 +1,350 @@
+nav{
+    width: 90%;
+    position: sticky;
+    margin: 20px auto;
+    /* z-index: 1; */
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    z-index: 1;
+}
+
+.logo{
+    flex-basis: 20%;  
+}
+
+.logo img{
+    width: 180px;
+    height: 100px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+    font-size: 20px;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-links ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    /* font-size: 20px; */
+}
+
+.dropdown-item img{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.dropdown-menu{
+    justify-content: space-between;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+.dropdown-item:hover{
+    background-color:cyan;
+    width: 300px;
+    border-radius: 20px;
+}
+
+/* -------------------------------------Home Page----------------------------------- */
+
+.carousel{
+    width: 100%;
+    /* height: 400px;   */
+}
+
+.slide1 h1{
+    position: relative;
+    left: 250px;
+    top: -100px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.slide1 h2{
+    position: relative;
+    left: 250px;
+    top: -100px;
+    font-size: 50px;
+}
+.slide1 btn{
+    position: relative;
+    top: -200px;
+}
+
+.fee{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    left: 550px;
+    top: -30px;
+    background-color: black;
+    width: 480px;
+    border-radius: 20px;
+}
+
+.fee span{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    position: relative;
+    left: 20px;
+    padding: 5px;
+}
+
+.carousel img{
+    width: 100%;
+    height: 500px;
+}
+
+.btn{
+    position: relative;
+    border-radius: 30px;
+    background-color: rgb(255, 234, 0); 
+    width: 300px;
+    height: 70px;
+    font-weight: bold;
+    left: 250px;
+    top: -10px;
+    font-size: 30px;
+}
+
+
+.btn:hover {    
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+            background-color: blue;
+}
+
+.btn1{
+    position: relative;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 0);
+    width: 300px;
+    height: 70px;
+    font-weight: bold;  
+    left: 273px;
+    top: -43px;
+    font-size: 30px;
+}
+
+.btn1:hover {    
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+            background-color: blue;
+}
+
+
+/* -------------------------------------BOOK APNT----------------------------------- */
+
+.ban img{
+    width: 100%;
+    height: 400px;
+}
+
+.ban{
+    margin-bottom: 20px;
+}
+
+.speciality{
+    background-color: black;
+    color: cyan;
+    border-radius: 30px;
+    width: 40%;
+    text-align: center;
+    position: relative;
+    left: 450px;
+}
+
+.card1{
+    display:flex;
+    /* flex-wrap: wrap; */
+    background-color: cyan;
+    height: 500px;
+    width: 100%;
+}
+
+.card1 img{
+    width: 300px;
+    margin-top: 5px;
+    border-radius: 10px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+}
+
+.card-body{
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: white;
+    border-radius: 20px;  
+    padding: 10px;  
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+.card-body button{
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 20px;
+    text-decoration-line: none;
+    margin-top: 20px;
+}
+
+.card-body button:hover {
+    background-color: rgb(255, 230, 0);
+    color: white;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+.card-body .card-title{
+    color: brown;
+    
+}
+.card-body h2{
+    color: darkgoldenrod
+}
+
+.card-body h3{
+    color: darkorange;
+}
+
+
+.book{
+    background-color: orangered;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.online{
+    background-color: cyan;
+}
+
+
+/* ---------------------------------------Book form link-------------------------------------- */
+.head2{
+    width: 700px;
+    background-color: rgb(0, 255, 255);
+    position: relative;
+    left: 430px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+}
+
+.formbold-mb-5 {
+    margin-bottom: 20px;
+  }
+  .formbold-pt-3 {
+    padding-top: 12px;
+  }
+  .formbold-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+  }
+
+  .formbold-form-wrapper {
+    margin: 0 auto;
+    max-width: 550px;
+    width: 100%;
+    background: white;
+  }
+  .formbold-form-label {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    color: #07074d;
+    margin-bottom: 12px;
+  }
+  .formbold-form-label-2 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .formbold-form-input {
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    background: white;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6b7280;
+    outline: none;
+    resize: none;
+  }
+  .formbold-form-input:focus {
+    border-color: #6a64f1;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .formbold-btn {
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 14px 32px;
+    border: none;
+    font-weight: 600;
+    background-color: #6a64f1;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+  }
+  .formbold-btn:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .formbold--mx-3 {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+  .formbold-px-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .w-full {
+    width: 100%;
+  }
+  @media (min-width: 540px) {
+    .sm\:w-half {
+      width: 50%;
+    }
+  }
+
+/* -----------------------------Lab form------------------------------ */
+.head3{
+    background-color: red;
+    width: 700px;
+    position: relative;
+    left: 430px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+}
+
+
+/* -------------------------------------------------FAQs---------------------------------------------- */
+
+.accordion{
+    margin: 50px
+}

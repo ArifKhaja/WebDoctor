@@ -1,0 +1,29 @@
+[
+    {
+       "id": 1,
+       "image": "images/doc1.jpg",
+       "name": "Dr. Jonas Thomas",
+       "specialization": "General-Physician",
+       "fees": "Rs.249",
+       "timing":"6pm - 8pm",
+       "details":"Experienced Doctors available 24/7"
+    },
+    {
+        "id": 2,
+        "image": "images/doc2.jpg",
+        "name": "Dr. Naveena Shree",
+        "specialization": "Gynaecologist",
+        "fees": "Rs.649",
+        "timing":"5pm - 7pm",
+        "details":"Healthier Society"
+    },
+    {
+        "id": 3,
+        "image": "images/doc3.jpg",
+        "name": "Dr. Jeff Bezoz",
+        "specialization": "Orthopaedic",
+        "fees": "Rs.799",
+        "timing":"10am - 12pm",
+        "details":"Happy Muscles"
+    }
+]
