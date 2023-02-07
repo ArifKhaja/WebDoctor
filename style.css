@@ -348,3 +348,49 @@ h1{
 .accordion{
     margin: 50px
 }
+
+
+/* -------------------------------------------FIND page------------------------------------- */
+form.find1 input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 50%;
+    background: #f1f1f1;
+    position: relative;
+    left: 300px;
+    top: 150px;
+  }
+  
+  /* Style the submit button */
+  form.find1 button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    position: relative;
+    left: 300px;
+    top: 150px;
+  }
+  
+  form.find1 button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.find1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+#searchH{
+    margin-top: 200px;
+    margin-bottom: -100px;
+  }
