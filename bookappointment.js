@@ -22,6 +22,10 @@ fetch("products.json")
           <button class="book"><a href="bookform.html">Book Appointment</a></button>
           <button class="online"><a href="onlineform.html">Online Consult</a></button>
         </div>  
+        <div>
+          <button class="book"><a href="bookform.html">Book Appointment</a></button>
+          <button class="online"><a href="onlineform.html">Online Consult</a></button>
+        </div> 
       </div>
       `;
     }
